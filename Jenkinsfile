@@ -3,6 +3,7 @@ pipeline {
 	  node {
 		  label 'jenkinsagent'
         }
+  }
   stages {
     stage('build') {
       steps {
@@ -32,8 +33,3 @@ pipeline {
     }
   }
 }
-
-
-
-
-
